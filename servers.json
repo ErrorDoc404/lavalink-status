@@ -7,6 +7,13 @@
          "secure":true
       },
       {
+         "identifier" : "ErrorDoc404#9563",
+         "host":"node2.kartadharta.xyz",
+         "port":443,
+         "password":"LavaOnMoon",
+         "secure":true
+      },
+      {
          "host":"4mcspigot.cf",
          "port":3000,
          "password":"LavaOnMoon",
