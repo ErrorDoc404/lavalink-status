@@ -9,9 +9,9 @@
       {
          "identifier" : "ErrorDoc404#9563",
          "host":"node2.kartadharta.xyz",
-         "port":443,
+         "port":3000,
          "password":"LavaOnMoon",
-         "secure":true
+         "secure":false
       },
       {
          "host":"4mcspigot.cf",
