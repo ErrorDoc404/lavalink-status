@@ -1,0 +1,21 @@
+[
+      {
+         "identifier" : "ErrorDoc404#9563",
+         "host":"node1.kartadharta.xyz",
+         "port":443,
+         "password":"kdlavalink",
+         "secure":true
+      },
+      {
+         "host":"4mcspigot.cf",
+         "port":3000,
+         "password":"LavaOnMoon",
+         "identifier":"MC Spigot"
+      },
+      {
+         "host":"kartadharta.xyz",
+         "port":3000,
+         "password":"kdlavalink",
+         "identifier":"kartadharta"
+      }
+]
