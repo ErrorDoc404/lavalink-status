@@ -1,4 +1,4 @@
-const { Client, EmbedBuilder } = require("discord.js");
+const { Client, EmbedBuilder, ActivityType  } = require("discord.js");
 const { logs } = require("../config.js");
 const si = require('systeminformation');
 const os = require("node:os");
@@ -14,6 +14,10 @@ require("moment-duration-format");
 module.exports = async (client) => {
     client.manager.init(client.user.id);
     console.log(`${client.user.username} online!`);
+    client.user.setPresence({
+      activities: [{ name: `discord.js v14`, type: ActivityType.Competing }],
+      status: 'dnd',
+    });
 
     const channel = await client.channels.fetch(logs);
 
