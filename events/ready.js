@@ -15,7 +15,7 @@ module.exports = async (client) => {
     client.manager.init(client.user.id);
     console.log(`${client.user.username} online!`);
     client.user.setPresence({
-      activities: [{ name: `discord.js v14`, type: ActivityType.Competing }],
+      activities: [{ name: `Lavalink Server`, type: ActivityType.Competing }],
       status: 'dnd',
     });
 
