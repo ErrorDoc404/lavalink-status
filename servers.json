@@ -1,28 +1,9 @@
 [
       {
-         "identifier" : "ErrorDoc404#9563",
-         "host":"node1.kartadharta.xyz",
-         "port":443,
+         "identifier" : "Petro",
+         "host":"152.70.78.251",
+         "port":3000,
          "password":"kdlavalink",
-         "secure":true
-      },
-      {
-         "identifier" : "ErrorDoc404#9563",
-         "host":"node2.kartadharta.xyz",
-         "port":80,
-         "password":"LavaOnMoon",
          "secure":false
-      },
-      {
-         "host":"4mcspigot.cf",
-         "port":3000,
-         "password":"LavaOnMoon",
-         "identifier":"MC Spigot"
-      },
-      {
-         "host":"kartadharta.xyz",
-         "port":3000,
-         "password":"kdlavalink",
-         "identifier":"kartadharta"
       }
 ]
