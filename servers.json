@@ -1,9 +1,18 @@
 [
       {
-         "identifier" : "Petro",
-         "host":"152.70.78.251",
+         "identifier" : "Version 3",
+         "host":"node1.kartadharta.xyz",
          "port":3000,
          "password":"kdlavalink",
-         "secure":false
+         "secure":false,
+         "version": "v3"
+      },
+      {
+         "identifier" : "Version 4",
+         "host":"node1.kartadharta.xyz",
+         "port":3001,
+         "password":"kdlavalink",
+         "secure":false,
+         "version": "v4"
       }
 ]
