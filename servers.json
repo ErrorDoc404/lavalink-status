@@ -1,16 +1,16 @@
 [
       {
          "identifier" : "Version 3",
-         "host":"node1.kartadharta.xyz",
-         "port":3000,
-         "password":"kdlavalink",
+         "host":"n1.kartadharta.xyz",
+         "port":3001,
+         "password":"kartadharta",
          "secure":false,
-         "version": "v3"
+         "version": "v4"
       },
       {
          "identifier" : "Version 4",
-         "host":"node1.kartadharta.xyz",
-         "port":3001,
+         "host":"n2.kartadharta.xyz",
+         "port":3000,
          "password":"kdlavalink",
          "secure":false,
          "version": "v4"
