@@ -46,11 +46,6 @@ module.exports = async (client) => {
                         name: "**Lavalink**",
                         value: `\`\`\`nim\n${client.manager.nodes.map((node) =>
                             `\n\n\nNode : ${node.connected ? "🟢 Online" : "🔴 Offline"}
-Host : '${node.options.host}'
-Port : '${node.options.port}'
-Password : '${node.options.password}'
-Secure : '${node.options.secure}'
-version: '${node.version}'
 Memory Usage : ${formatBytes(node.stats.memory.allocated)} - ${node.stats.cpu.lavalinkLoad.toFixed(2)}%
 Connections : ${node.stats.playingPlayers} / ${node.stats.players}
 Uptime : ${moment(node.stats.uptime).format(
